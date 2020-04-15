@@ -7,6 +7,8 @@ navbar:
     href: index.html
   - text: "Speed and Distance"
     href: speed-and-distance.html
+  - text: "Covid-19"
+    href: covid19.html
 output:
   html_document:
-    theme: cosmo
+    theme: slate
