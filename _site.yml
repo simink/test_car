@@ -3,10 +3,10 @@ output_dir: "."
 navbar:
   title: "Pages"
   left:
-  - text: "covid19"
-    href: covid19.html
-  - text: "Covid test"
-    href: covid_test.html
+    - text: "covid19"
+      href: covid19.html
+    - text: "Covid test"
+      href: covid_test.html
 output:
   html_document:
     theme: slate
