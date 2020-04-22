@@ -1,0 +1,21 @@
+---
+title: "covid test"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      fig.width = 10,
+                      warning = FALSE,
+                      message = FALSE)
+
+library(tidyverse)
+
+
+```
+
+```{r}
+df <- readRDS("./data/pt_tidy.rds")
+glimpse(df)
+```
+
