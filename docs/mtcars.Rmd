@@ -1,0 +1,11 @@
+---
+title: "mtcars"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r cars}
+summary(mtcars)
+```
